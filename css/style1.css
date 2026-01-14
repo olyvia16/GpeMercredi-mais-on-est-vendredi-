@@ -1,0 +1,42 @@
+   
+        body{
+            background-color: rgb(163, 93, 203);
+        }
+
+ 
+
+    p {
+        background-color: rgb(122, 36, 213);
+        color: hwb(0 4% 96%);
+        width: 200px;
+        width: 50%;
+    }
+
+    img{
+        height: 400px;
+        border-style: solid;
+        padding: 20px;
+        margin-left: 0%;
+        border-color: rgb(0, 0, 0);
+    }
+
+
+    h1{
+        border-bottom: solid;
+    }
+
+    .premier{
+        background-color: rgb(233, 221, 52);
+        width: 33%;
+        text-align:justify;
+    }
+
+    #deux{
+        background-color: rgb(194, 87, 233);
+        width: 25%;
+        text-align: justify;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    /*Beaucoup de sites utilisent des fonts externes*/

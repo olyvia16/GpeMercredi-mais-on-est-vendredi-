@@ -69,6 +69,27 @@ Il existe plus de 500 propriétés et encore d'avantage de valeurs possible mais
     - `em` relatif à la taille de la police
     - `%` relatif à la taille du contenant
 
-Rem : Quand le sélecteur css est un élément HTML (par exemple `p`) alors les propriétés s'appliquent à tous les éléments du même type.
+Remarque : Quand le sélecteur css est un élément HTML (par exemple `p`) alors les propriétés s'appliquent à tous les éléments du même type.
 
 Pour différencier des éléments de même nature, on peut utiliser l'attribut `class` ou `id`. Dans ce cas, le sélecteur est le nom de la classe précédé d'un `.` ou le nom de l'identifiant précédé d'un `#`.
+
+
+Remarque : le contenu d'un élément html suit le principle du modèle en boîte.
+[https://www.w3schools.com/Css/css_boxmodel.asp](https://www.w3schools.com/Css/css_boxmodel.asp)
+
+
+
+Trois propriétés importantes sont liées à ce modèle :
+- `border` pour le style de la bordure
+- `padding` pour l'espace interne
+- `margin` pour la marge autour de la bordure
+
+Remarque : Il existe des propriétés spécifiques au texte, en particulier : 
+- `text-align` pour justifier le texte.
+- `font` pour la police de caractères
+
+
+
+Il existe deux balises html universelles qui permettent de grouper des éléments ou du texte :
+- `<div></div>`
+- `<span></span>`
