@@ -64,3 +64,11 @@ On peut écrire le CSS :
 
 Il existe plus de 500 propriétés et encore d'avantage de valeurs possible mais souvent, les valeurs sont :
 - des couleurs (soit un nom soit un code comme RGB(0-255, 0-255, 0-255))
+- des tailles plusieurs unités sont possibles 
+    - `px` pour pixels
+    - `em` relatif à la taille de la police
+    - `%` relatif à la taille du contenant
+
+Rem : Quand le sélecteur css est un élément HTML (par exemple `p`) alors les propriétés s'appliquent à tous les éléments du même type.
+
+Pour différencier des éléments de même nature, on peut utiliser l'attribut `class` ou `id`. Dans ce cas, le sélecteur est le nom de la classe précédé d'un `.` ou le nom de l'identifiant précédé d'un `#`.

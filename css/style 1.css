@@ -1,11 +1,18 @@
    
         body{
-            background-color: rgb(255, 183, 219);
+            background-color: rgb(138, 32, 82);
         }
 
  
 
     p {
-        background-color: rgb(151, 236, 255);
-        color: rgb(175, 45, 153);
+        background-color: rgb(247, 238, 107);
+        color: hwb(341 11% 57%);
+        width: 200px;
+        width: 50%;
+    }
+
+    .premier{
+        background-color: cadetblue;
+        width: 33%;
     }
