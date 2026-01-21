@@ -25,6 +25,10 @@
         border-bottom: solid;
     }
 
+    div{
+        border: solid;
+    }
+
     .premier{
         background-color: rgb(233, 221, 52);
         width: 33%;
