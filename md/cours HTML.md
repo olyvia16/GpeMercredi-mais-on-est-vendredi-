@@ -21,10 +21,12 @@ La structure minimale d'une page web est :
 </html>
 
 ``` 
+
 Le site de référence pour les langages du WEB est le site des développeurs de Mozilla.
 [https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements)
 
-QUelques balises à connaître :
+
+Quelques balises à connaître :
 - `<body></body>` contient tout ce qui est visible sur le page
 - `<head></head>` contient ce qui n'est pas visible sur la page (ex : `<title></title>`)
 - `<h1></h1>` permet de faire des titres sur la page
@@ -42,11 +44,14 @@ Les balises ouvrantes peuvent contenir des attributs définis sur le site de ré
 
 
 ---------------------------
+
 Pour donner le chemin relatif vers un fichier on utilise :
 - `./` pour chercher dans le dossier courant
 - `../` pour chercher dans le dossier au dessus
 
 2. Le CSS
+
+
 Cascading Style Sheet *feuille de style en cascade*
 [https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties)
 
@@ -62,12 +67,14 @@ On peut écrire le CSS :
 - dans le fichier html entre les balises `<style></style>`
 - dans un ficher dédié avec l'extension `.css` ; il faut ajouter une balise `<link rel="stylesheet" href="">`
 
+
 Il existe plus de 500 propriétés et encore d'avantage de valeurs possible mais souvent, les valeurs sont :
 - des couleurs (soit un nom soit un code comme RGB(0-255, 0-255, 0-255))
 - des tailles plusieurs unités sont possibles 
     - `px` pour pixels
     - `em` relatif à la taille de la police
     - `%` relatif à la taille du contenant
+
 
 Remarque : Quand le sélecteur css est un élément HTML (par exemple `p`) alors les propriétés s'appliquent à tous les éléments du même type.
 
@@ -100,10 +107,24 @@ Ctrl + Shift + i
 
 Il s'agit d'un langage de programation comme Python mais initialement dédié au WEB.
 
-C'est un langage prévu pour intéragir avec une page HTML : le document peut se présenter aisin :
-
-
+C'est un langage prévu pour intéragir avec une page HTML : le document peut se présenter ainsi :
+)
 Image du DOM (Document Object Model)
+
+
+window
+├── alert()
+└── document
+    ├── getElementById()
+    ├── querySelector()
+    │       ↓
+    │   élément HTML
+    │       ├── innerHTML
+    │       ├── style
+    │       │     ├── color
+    │       │     ├── backgroundColor
+    │       │     └── display
+    │       └── addEventListener()
 
 Le JS permet de rendre une page HTML plus dynamique notament grâce aux formulaires `<form></form>`.
 
@@ -147,10 +168,7 @@ Js est capable d'associer un évènement à un élément HTML :
 On utilise la méthode `addEventListener()`
 
 ```js
-elementHTML.addEventListener("click", function(){
-
+elementHTML.addEventListener("event", function(){
 //faire quelque chose
 });
-
-
 ```
