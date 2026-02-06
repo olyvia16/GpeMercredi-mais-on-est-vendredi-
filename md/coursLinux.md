@@ -152,3 +152,16 @@ Les fichiers python `.py`ne sont pas des fichiers exécutables dans le shell (te
 
 ## Ex2
 [https://codex.forge.apps.education.fr/exercices/syracuse/](https://codex.forge.apps.education.fr/exercices/syracuse/)
+
+------------------
+Le *File Globbing* : la recherche de fichiers avec une *wildcard*
+
+On peut agir (`find`, `cp`, `rm`, ... ) sur des fichiers sans en connaître le nom exact.
+
+|wildcard|signification|exemple|
+|----|----|----|
+|`*`|autant de caractère que l'on veut|`ls f*|
+|`?`|exactement un caractère|`ls file?.txt`|
+|[arq] ou [a-qr]|un des caractères dans la liste|`ls file[arq]*`|
+|`[!a-r]`|un caractère qui n'est pas dans la liste|`ls file[!arq]*`|
+
