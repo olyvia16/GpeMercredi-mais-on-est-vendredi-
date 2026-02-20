@@ -9,7 +9,7 @@ Revenir dans le répertoire /workspaces/GpeMercredi
 Utiliser la commande ls -F . Que remarquez-vous ?
 Réaliser deux copies de fic1.txt :
 fic2.txt dans le répertoire ./Dossier1
-fic3.txt dans le répertoire /workspaces/GpeMercredi
+fic3.txt dans le répertoire /worksplsaces/GpeMercredi
 Renommer le fichier fic1.txt en fichierNSI . Commenter.
 Utiliser la commande tree pour contrôler le résultat.
 Utiliser la commande cd ../ puis pwd . Que remarquez-vous ?
@@ -58,4 +58,4 @@ tree
     echo -e "J'aime la NSI
 > J'aime la NSI" > ./fic3.txt
 - head -n 4 ./fic3.txt
-- tail
+- tail -n 3 ./fic3.txt
